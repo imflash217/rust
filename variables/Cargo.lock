@@ -9,8 +9,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "77c90badedccf4105eca100756a0b1289e191f6fcbdadd3cee1d2f614f97da8f"
 
 [[package]]
+name = "typeinfo"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "332ca9eff2881a2a03e2664f62abdf66cdf040a51d1a46c3b79eee44d2013c82"
+
+[[package]]
 name = "variables"
 version = "0.1.0"
 dependencies = [
  "dotenv",
+ "typeinfo",
 ]
